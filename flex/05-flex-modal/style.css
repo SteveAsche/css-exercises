@@ -30,7 +30,7 @@ body {
 
 .modal-content {
 
- /* row-gap: 8px; */
+ /* row-gap: 8px; I removed this as i didn't need it any more*/
 }
 
 .icon {
