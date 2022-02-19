@@ -5,6 +5,50 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  list-style-type: none;
+  
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  list-style-type: none;
+  
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color:#eeeeee;
+  padding-right: 12px;
 }
 
 img {
